@@ -52,14 +52,19 @@ class Post {
 
     public static function find($slug)
     {
-    // if(! file_exists($path =resource_path("posts/{$slug}.html"))){
-    //     throw new ModelNotFoundException(); 
-    // }
 
-    // return cache()->remember("posts.{$slug}", 1200, fn() => file_get_contents($path));
+        return static::all()->firstWhere('slug',$slug);
+  }
 
-    // de tódolos artigos do blog, atopar o(s) que coincidadn co termo da busca (12)
-    return static::all()->firstWhere('slug',$slug);
- 
+  public static function findOrFail($slug)
+    {
+
+    $post = static::find($slug);
+
+    if (! $post){
+        throw new ModelNotFoundException();
     }
+
+    return $post;
+  }
 }
