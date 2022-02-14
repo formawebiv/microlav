@@ -102,6 +102,17 @@ module.exports = {
 }
 ```~~
 
+#### Instalar nightwind
+ https://github.com/jjranalli/nightwind
+
+ ```js
+ // tailwind.config.js - Tailwind ^2.0
+module.exports = {
+  darkMode: "class",
+  // ...
+  plugins: [require("nightwind")],
+}```
+
 ## :warning:
 try:
 npm cache clean --force
@@ -121,3 +132,55 @@ Plugins e opcións de configuracion que poden mellorar a experiencia de desenvol
 
 _ref.:  https://tailwindcss.com/docs/guides/laravel
         https://tailwindcss.com/docs/using-with-preprocessors#vendor-prefixes
+
+
+## BBDD
+## ``php artisan migrate``
+
+Para crear unha nova táboa da bbdd que imos consumir coa nosa aplicación Laravel recorre ao comando ``make`` 
+
+``php artisan make:migration create_posts_table``
+
+Persoaliza a nova migración que atopara en /database/migrations/
+
+```php
+//...
+  public function up()
+    {
+        Schema::create('posts', function (Blueprint $table) {
+            $table->id();
+            $table->string('title');
+            $table->text('excerpt');
+            $table->text('body');
+            $table->timestamps();
+            $table->timestamp('published_at')->nullable();
+        });
+    }
+//...
+```
+
+```php artisan migrate``` para crear a nova táboa na bbdd.
+
+Feito isto necesitaremos un modelo elocuente que responda ao uso dos datos gardados baixo a sús denominación.
+
+Crear agora o modelo ``Post``
+
+```php artisan make:model Post```
+
+
+Con ```php artisan tinker``` temos acceso a un acceso completo aos recursos e activos da aplicación.(cap20)
+
+Tinker é unha consola de comandos coa que pódese interactuar con todas as clases e métodos da aplicación; moi útil á hora de realizar probas de funcionamento. (https://styde.net/tinker-consola-de-comandos-en-laravel/)
+
+```bash
+php artisan tinker
+Psy Shell v0.11.1 (PHP 7.4.27 — cli) by Justin Hileman
+>>> use App\Models\Post;
+>>> Post::create([
+    'title' => 'Meu primeiro artigo',
+    'excerpt' => 'Meu primeiro artigo',
+    'body' => 'Meu primeiro artigo',
+    'slug' => 'primeiro-artigo',
+    'category_id' => '1',
+])
+```

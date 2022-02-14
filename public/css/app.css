@@ -634,6 +634,150 @@ select {
     max-width: 1440px;
   }
 }
+
+.dark .text-purple-600 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-purple-600.nightwind-prevent {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .nightwind-prevent-block .text-purple-600 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-200 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-200.nightwind-prevent {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .nightwind-prevent-block .text-gray-200 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-300 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-300.nightwind-prevent {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .nightwind-prevent-block .text-gray-300 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-400 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-400.nightwind-prevent {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .nightwind-prevent-block .text-gray-400 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-500 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-500.nightwind-prevent {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .nightwind-prevent-block .text-gray-500 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-600 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-600.nightwind-prevent {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .nightwind-prevent-block .text-gray-600 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-700 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-700.nightwind-prevent {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .nightwind-prevent-block .text-gray-700 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-900 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .text-gray-900.nightwind-prevent {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .nightwind-prevent-block .text-gray-900 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+
+.dark .bg-gray-100 {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+
+.dark .bg-gray-100.nightwind-prevent {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+
+.dark .nightwind-prevent-block .bg-gray-100 {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+
+.dark .border-purple-200 {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+
+.dark .border-purple-200.nightwind-prevent {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+
+.dark .nightwind-prevent-block .border-purple-200 {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+
+.dark .border-gray-200 {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+
+.dark .border-gray-200.nightwind-prevent {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+
+.dark .nightwind-prevent-block .border-gray-200 {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+
+.dark .border-gray-300 {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+
+.dark .border-gray-300.nightwind-prevent {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+
+.dark .nightwind-prevent-block .border-gray-300 {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
 .fixed {
   position: fixed;
 }
@@ -649,6 +793,10 @@ select {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .mt-8 {
   margin-top: 2rem;
@@ -766,6 +914,12 @@ select {
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
 .items-center {
   align-items: center;
 }
@@ -853,6 +1007,10 @@ select {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
 .pt-8 {
   padding-top: 2rem;
 }
@@ -904,6 +1062,78 @@ select {
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.nightwind .text-purple-600 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .border-purple-200 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .text-gray-200 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .text-gray-300 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .text-gray-400 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .text-gray-500 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .text-gray-600 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .text-gray-700 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .text-gray-900 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .bg-gray-100 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .border-gray-200 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .border-gray-300 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
 
 p { line-height: 1.6;}
 article + article { margin-top: 2em; padding-top: 1em; border-top: grey 2px solid;}
@@ -927,6 +1157,30 @@ article + article { margin-top: 2em; padding-top: 1em; border-top: grey 2px soli
   padding-left: 1rem !important;
   border-radius: .25rem !important;
 }
+.dark .hover\:bg-purple-600:hover {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+.dark .hover\:bg-purple-600:hover.nightwind-prevent {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+.dark .nightwind-prevent-block .hover\:bg-purple-600:hover {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+.nightwind .hover\:bg-purple-600:hover {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.dark .focus\:border-gray-300:focus {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+.dark .focus\:border-gray-300:focus.nightwind-prevent {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+.dark .nightwind-prevent-block .focus\:border-gray-300:focus {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -943,6 +1197,87 @@ article + article { margin-top: 2em; padding-top: 1em; border-top: grey 2px soli
 }
 .focus\:ring-offset-2:focus {
   --tw-ring-offset-width: 2px;
+}
+.nightwind .focus\:border-gray-300:focus {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.dark .dark .dark\:text-gray-400 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+.dark .dark .dark\:text-gray-400.nightwind-prevent {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+.dark .nightwind-prevent-block .dark .dark\:text-gray-400 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+.dark .dark .dark\:text-gray-500 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+.dark .dark .dark\:text-gray-500.nightwind-prevent {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+.dark .nightwind-prevent-block .dark .dark\:text-gray-500 {
+  color: rgba(undefined, undefined, undefined, var(--tw-text-opacity));
+}
+.dark .dark .dark\:bg-gray-800 {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+.dark .dark .dark\:bg-gray-800.nightwind-prevent {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+.dark .nightwind-prevent-block .dark .dark\:bg-gray-800 {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+.dark .dark .dark\:bg-gray-900 {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+.dark .dark .dark\:bg-gray-900.nightwind-prevent {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+.dark .nightwind-prevent-block .dark .dark\:bg-gray-900 {
+  background-color: rgba(undefined, undefined, undefined, var(--tw-bg-opacity));
+}
+.dark .dark .dark\:border-gray-700 {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+.dark .dark .dark\:border-gray-700.nightwind-prevent {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+.dark .nightwind-prevent-block .dark .dark\:border-gray-700 {
+  border-color: rgba(undefined, undefined, undefined, var(--tw-border-opacity));
+}
+.nightwind .dark .dark\:text-gray-400 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .dark .dark\:text-gray-500 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .dark .dark\:bg-gray-800 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .dark .dark\:bg-gray-900 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+}
+.nightwind .dark .dark\:border-gray-700 {
+  transition-duration: 300ms;
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
 }
 @media (min-width: 480px) {
 
